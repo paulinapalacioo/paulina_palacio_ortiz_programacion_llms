@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 import random
 
-def generar_caso_de_uso_ajustar_dosificacion_concreto():
+def generar_caso_de_uso_escalar_datos_concreto():
     n = random.randint(5, 15)
 
     df = pd.DataFrame({
