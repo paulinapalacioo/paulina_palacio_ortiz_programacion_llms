@@ -8,5 +8,5 @@ Escribe una función llamada completar_monitoreo_asentamiento(df) que:
 
 - Detecte valores iguales a 0 o NaN en la columna "asentamiento"
 - Reemplace cada valor faltante por el promedio entre el valor anterior y el siguiente cuando ambos existan
-- Si no es posible usar ambos valores (por ejemplo, al inicio o al final), reemplazar usando el promedio de toda la columna (ignorando NaN)
+- Si no es posible usar ambos valores para el promedio, reemplazar usando el valor válido más cercano (anterior o siguiente)
 - Devuelva un array de NumPy con los valores corregidos
