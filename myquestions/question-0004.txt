@@ -12,6 +12,6 @@ Tu Misión:
 
 Escribe una función llamada predecir_resistencia_concreto(df, target_col) que:
 
-- Separe las variables predictoras (X) y la variable objetivo (y)
+- Separe las variables predictoras (X) y la variable objetivo (y) usando target_col
 - Entrene un modelo RandomForestRegressor
 - Devuelva el modelo entrenado
