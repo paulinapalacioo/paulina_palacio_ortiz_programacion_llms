@@ -1,1 +1,5 @@
-# paulina_palacio_ortiz_programacion_llms
+# Proyecto Programación LLMs
+
+Student: Paulina Palacio Ortiz  
+Email: paulina.palacioo@udea.edu.co  
+

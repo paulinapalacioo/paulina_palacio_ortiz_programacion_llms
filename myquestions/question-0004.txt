@@ -1,0 +1,17 @@
+El Problema:
+
+Se desea predecir la resistencia del concreto a 28 días (en MPa) a partir de:
+
+- Cantidad de cemento
+- Cantidad de agua
+- Aditivos
+- Resistencia a 3 días
+- Resistencia a 7 días
+
+Tu Misión:
+
+Escribe una función llamada predecir_resistencia_concreto(df, target_col) que:
+
+- Separe las variables predictoras (X) y la variable objetivo (y)
+- Entrene un modelo RandomForestRegressor
+- Devuelva el modelo entrenado

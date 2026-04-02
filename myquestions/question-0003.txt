@@ -1,0 +1,16 @@
+El Problema:
+
+En una planta de concreto se registran las siguientes variables:
+- Humedad de la arena (%)
+- Temperatura ambiente (°C)
+- Volumen de producción (m³)
+
+Estas variables tienen escalas muy diferentes, lo que afecta el rendimiento de modelos de machine learning.
+
+Tu Misión:
+
+Escribe una función llamada escalar_datos_concreto(df) que:
+
+- Aplique StandardScaler a todas las columnas
+- Luego aplique MinMaxScaler al resultado anterior
+- Devuelva un array de NumPy con los datos transformados

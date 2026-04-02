@@ -1,0 +1,12 @@
+El Problema:
+
+Durante la construcción de una edificación, se monitorea el asentamiento acumulado (en mm) de una columna a lo largo de varias semanas. Debido a problemas en obra, algunos valores se registraron como 0 o se perdieron (NaN), aunque se sabe que el asentamiento es un proceso continuo.
+
+Tu Misión:
+
+Escribe una función llamada completar_monitoreo_asentamiento(df) que:
+
+- Detecte valores iguales a 0 o NaN en la columna "asentamiento"
+- Reemplace cada valor faltante por el promedio entre el valor anterior y el siguiente cuando ambos existan
+- Si no es posible usar ambos valores (por ejemplo, al inicio o al final), reemplazar usando el promedio de toda la columna (ignorando NaN)
+- Devuelva un array de NumPy con los valores corregidos

@@ -1,0 +1,17 @@
+El Problema:
+
+En una obra de construcción se lleva el control de materiales utilizados, con la siguiente información en un DataFrame:
+- "material" (tipo de material: cemento, arena, acero, etc.)
+- "costo_unitario" (costo por unidad del material)
+- "cantidad" (cantidad utilizada en la obra)
+
+Tu Misión:
+
+Escribe una función llamada calcular_costo_total_por_material(df) que:
+
+- Cree una nueva columna llamada "costo_total" que sea el resultado de multiplicar costo_unitario por cantidad
+- Agrupe los datos por material
+- Calcule el costo total por cada tipo de material
+- Devuelva un diccionario donde:
+  - la clave sea el nombre del material
+  - el valor sea el costo total correspondiente
