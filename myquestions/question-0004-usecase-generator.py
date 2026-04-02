@@ -25,8 +25,8 @@ def generar_caso_de_uso_predecir_resistencia_concreto():
         'target_col': 'resistencia_28d'
     }
 
-    X = df.drop(columns=['resistencia_28d'])
-    y = df['resistencia_28d']
+    X = df.drop(columns=[input_data['target_col']])
+    y = df[input_data['target_col']]
 
     model = RandomForestRegressor()
     model.fit(X, y)
